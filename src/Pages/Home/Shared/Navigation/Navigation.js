@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
@@ -23,6 +24,9 @@ const Navigation = () => {
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         Doctor's portal
+                    </Typography>
+                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                        <NavLink to='/appoinment'>Appoinment</NavLink>
                     </Typography>
                     <Button color="inherit">Login</Button>
                 </Toolbar>
