@@ -1,13 +1,10 @@
-import { CardMedia, Container as div, Grid, Typography } from '@mui/material';
+import { CardMedia, Container , Grid, Typography } from '@mui/material';
 import React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 
 
 const Service = (props) => {
-    console.log(props);
     const { name, img, des } = props.service
     return (
         <div>
